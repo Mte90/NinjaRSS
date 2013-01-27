@@ -1,0 +1,19 @@
+{
+    "version": "1 Alpha",
+    "name": "NinjaRSS",
+    "launch_path": "/index.html",
+    "description": "Simple Rss reader",
+    "type": "privileged",
+    "icons": {
+        "60": "/icona.png"
+    },
+    "developer": {
+        "name": "NinjaRSS Team",
+        "url": "http://mte90.net"
+    },
+    "permissions" : {
+       
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en"
+}

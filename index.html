@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar right-button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Tutti i siti</a>
+                    <a class="btn btn-navbar left-button">
+                        +
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+	<div class="rss"></div>
+
+        </div> <!-- /container -->
+
+        <div id="new-rss" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">Insert the rss url</h3>
+	</div>
+	<div class="modal-body">
+	<p><input type="text" placeholder="Insert the url" class="save-me"></p>
+	<p><input type="text" placeholder="Insert the name" class="save-name"></p>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Annulla</button>
+		<button class="btn btn-primary go-rss">Salva!</button>
+	</div>
+	</div>
+
+        <div id="site-rss" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<h3 id="myModalLabel">Choose the site</h3>
+	</div>
+	<div class="modal-body">
+	<p></p>
+	</div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Annulla</button>
+		<button class="btn btn-primary clean-rss">Clean all!</button>
+	</div>
+	</div>
+
+        <script src="js/jquery.min.js"></script>
+         <script src="js/jquery.mobile-events.min.js"></script>
+	<script src="js/jquery.zrssfeed.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
